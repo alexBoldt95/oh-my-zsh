@@ -1,6 +1,6 @@
 #original by Dev Dabke
 local ret_status="%(?:%{$fg_bold[green]%}$ :%{$fg_bold[red]%}$ )"
-PROMPT='%{$fg[green]%}%D{%a %b %d %T}%{$reset_color%} | %{$fg_bold[yellow]%}%n at %M{$reset_color%} | %{$fg_bold[cyan]%}%~
+PROMPT='%{$fg[green]%}%D{%a %b %d %T}%{$reset_color%} | %{$fg_bold[yellow]%}%n at %M$reset_color%} | %{$fg_bold[cyan]%}%~
 ${ret_status}%{$reset_color%} '
 
   #RPROMPT='$(git_prompt_status)%{$reset_color%}'
