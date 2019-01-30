@@ -105,3 +105,6 @@ alias gcm="git ci -m "
 alias gst="git st"
 alias gh="git hist"
 alias gm="git merge"
+
+# crazy cow
+fortune | cowsay
